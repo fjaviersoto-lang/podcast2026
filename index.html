@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositorio de Podcast</title>
+  <link rel="alternate" type="application/rss+xml" title="RSS Podcast" href="feed.xml">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
+    header { border-bottom: 2px solid #eee; padding-bottom: 1rem; margin-bottom: 2rem; }
+    .episodio { border: 1px solid #ddd; border-radius: 8px; padding: 1.2rem; margin-bottom: 1.5rem; }
+    audio { width: 100%; margin: 0.8rem 0; }
+    .btn { display: inline-block; background: #0066cc; color: #fff; padding: 0.4rem 0.8rem; text-decoration: none; border-radius: 4px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Repositorio de Podcast</h1>
+    <p>Audios de acceso libre. <a href="feed.xml">Suscribirse vía RSS</a></p>
+  </header>
+
+  <main>
+    <!-- EPISODIO 1 -->
+    <article class="episodio">
+      <h2>01. Título del primer episodio</h2>
+      <p><small>Publicado: 23 de noviembre de 2026 | Licencia CC-BY</small></p>
+      <p>Breve descripción del contenido de este audio.</p>
+      <!-- Pega aquí el enlace directo de Internet Archive -->
+      <audio controls preload="none">
+        <source src="https://archive.org/download/TU_CARPETA/episodio1.mp3" type="audio/mpeg">
+      </audio>
+      <br>
+      <a class="btn" href="https://archive.org/download/TU_CARPETA/episodio1.mp3" download>Descargar MP3</a>
+    </article>
+  </main>
+</body>
+</html>
